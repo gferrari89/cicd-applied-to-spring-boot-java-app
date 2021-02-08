@@ -16,5 +16,8 @@ ARG JAR_FILE
 # Add the application's jar to the container
 ADD ${JAR_FILE} app.jar
 
+# Test if jar is in constainer
+RUN ls
+
 # Run the jar file
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
