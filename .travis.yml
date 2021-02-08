@@ -19,8 +19,4 @@ script:
 - cat $HOME/.m2/settings.xml
 #Deploy the app on docker
 
-- mvn package
-- mvn dockerfile:build
-- mvn verify
-- mvn dockerfile:push
 - mvn deploy
