@@ -4,6 +4,4 @@
 
 [![Build Status](https://travis-ci.com/gferrari89/cicd-applied-to-spring-boot-java-app.svg)](https://travis-ci.com/gferrari89/cicd-applied-to-spring-boot-java-app)
 
-# Le build sur docker Hub n'a pas de sens c'est travis qui le fait
-
-# [![docker build](https://img.shields.io/docker/cloud/build/gferrari89/cicd-applied-to-spring-boot-java-app)](https://cloud.docker.com/u/gferrari89/repository/docker/gferrari89/cicd-applied-to-spring-boot-java-app)
+Le build sur docker Hub n'a pas de sens c'est travis qui le fait
