@@ -11,7 +11,7 @@ public class CicdAppliedToSpringBootJavaAppApplication {
 
 	@GetMapping("/")
 	public String home() {
-			return "Hello World lol";
+			return "Hello World Testing";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(CicdAppliedToSpringBootJavaAppApplication.class, args);
